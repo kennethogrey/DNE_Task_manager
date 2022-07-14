@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Session;
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>My Login Page &mdash; Bootstrap 4 Login Page Snippet</title>
+	<title>DNE_Task_manager &mdash; Register</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/my-login.css">
 </head>
@@ -35,12 +35,6 @@ use Illuminate\Support\Facades\Session;
                                     <span class="text-danger">@error('email'){{ $message }}@enderror</span>
 
 								</div>
-
-                                <div class="form-group">
-									<label for="favorite_color">Favorite Color</label>
-									<input id="favorite_color" type="text" class="form-control" name="favorite_color" value="{{ old('favorite_color') }}" required>
-                                    <span class="text-danger">@error('favorite_color'){{ $message }}@enderror</span>
-                                </div>
 
 								<div class="form-group">
 									<label for="password">Password</label>
